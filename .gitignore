@@ -1,0 +1,49 @@
+# Dependências
+node_modules/
+.pnp
+.pnp.js
+
+# Build de produção
+dist/
+dist-ssr/
+build/
+
+# Variáveis de ambiente e segredos
+.env
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local
+*.env
+!*.env.example
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+# Caches e temporários do Vite / ferramentas
+.vite/
+.eslintcache
+.stylelintcache
+
+# Arquivos do Sistema Operacional
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editores e IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ferramentas de IA / Agentes locais
+.agent/
+.agents/
+
+# Informações locais do desenvolvedor
+.doc/meu_git.*
+meu_git.*
